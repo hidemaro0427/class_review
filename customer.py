@@ -106,8 +106,7 @@ class Customer:
 # tom_tab_information = ieyasu.info_tab()
 # print(tom_tab_information)
 
-C - 8.
-単一顧客の情報取得形式の追加その2
+# C - 8.単一顧客の情報取得形式の追加その2
 ken_pipe = Customer(first_name="Ken", family_name="Tanaka", age=15)
 ken_pipe_information = ken_pipe.info_pipe()
 print(ken_pipe_information)
