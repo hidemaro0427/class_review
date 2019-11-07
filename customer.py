@@ -6,8 +6,8 @@ class Customer:
         self.list = [self.full_name(), str(self.age), str(self.entry_fee())]
 
     def full_name(self):
-        self.full_name = f"{self.first_name} {self.family_name}"
-        return self.full_name
+        full_name = f"{self.first_name} {self.family_name}"
+        return full_name
 
     def age(self):
         return self.age
